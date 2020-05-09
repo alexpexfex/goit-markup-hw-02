@@ -1,0 +1,74 @@
+/* основной цвет текста #757575; +*/
+/* цвет текств для заголовков и навигации #212121; */
+/* цвет заголовка #FFFFFF */
+/* цвет логотипа #2196F3 */
+/* бекграунд 3 секии  #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #2196f3;
+  
+}
+
+body {
+  color: var(--primary-text-color)
+  background-color: #ffffff;
+}
+span {
+  color: #000000;
+}
+.nav-logo {
+  color:var(--logo-text-color);
+}
+.navigation-link {
+  color: var(--title-text-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--logo-text-color)3;
+}
+.contact-link {
+  color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--logo-text-color);
+}
+.section-hero {
+  color: var(--title-text-color);
+}
+/* Поменять цвет текста и кнопки */
+.hero-link {
+  color: var(--logo-text-color);
+}
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--logo-text-color);
+}
+
+.overweight-caption {
+  color:  var(--title-text-color)
+}
+.work-title {
+  color: var(--title-text-color);
+}
+.work-text {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.team-workers {
+  color: var(--title-text-color);
+}
+.workers-man {
+  color: #212121;
+}
+.workers-link {
+  color: #2196f3;
+}
+.workers-link:hover,
+.workers-link:focus {
+  color: #008080;
+}
+.clients-title {
+  color:  var(--title-text-color);
+}
