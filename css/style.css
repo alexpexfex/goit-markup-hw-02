@@ -25,7 +25,7 @@ span {
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: var(--logo-text-color)3;
+  color: var(--logo-text-color);
 }
 .contact-link {
   color: #757575;
@@ -60,10 +60,10 @@ span {
   color: var(--title-text-color);
 }
 .workers-man {
-  color: #212121;
+  color:var(--title-text-color);
 }
 .workers-link {
-  color: #2196f3;
+  color: var(--logo-text-color);
 }
 .workers-link:hover,
 .workers-link:focus {
@@ -72,3 +72,16 @@ span {
 .clients-title {
   color:  var(--title-text-color);
 }
+.examples-link{
+  color: var(--title-text-color);
+}
+.examples-link:hover,
+.examples-link:focus
+{ color: #ff0000;
+
+}
+
+/* текст на картинки поменять цвет на fffffff */
+.caption-content {color: var(--title-text-color);}
+
+.caption-text{color: var(--primary-text-color);}
