@@ -7,16 +7,17 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --logo-text-color: #2196f3;
-  
+  --primary-bcg-color:#ffffff;
 }
 
 body {
   color: var(--primary-text-color)
-  background-color: #ffffff;
+  background-color: var(--primary-bcg-color);
 }
 span {
   color: #000000;
 }
+/* навигация */
 .nav-logo {
   color:var(--logo-text-color);
 }
@@ -34,18 +35,19 @@ span {
 .contact-link:focus {
   color: var(--logo-text-color);
 }
+/* Герой */
 .section-hero {
   color: var(--title-text-color);
 }
 /* Поменять цвет текста и кнопки */
-.hero-link {
+.button-main {
   color: var(--logo-text-color);
 }
-.hero-link:hover,
-.hero-link:focus {
+.button-main:hover,
+.button-main:focus {
   color: var(--logo-text-color);
 }
-
+/* сптсок приимуществ */
 .overweight-caption {
   color:  var(--title-text-color)
 }
@@ -56,6 +58,7 @@ span {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
 }
+/* наша команда */
 .team-workers {
   color: var(--title-text-color);
 }
@@ -69,19 +72,27 @@ span {
 .workers-link:focus {
   color: #008080;
 }
+/* наши клиенти */
 .clients-title {
   color:  var(--title-text-color);
 }
-.examples-link{
-  color: var(--title-text-color);
-}
-.examples-link:hover,
-.examples-link:focus
-{ color: #ff0000;
 
-}
+
 
 /* текст на картинки поменять цвет на fffffff */
 .caption-content {color: var(--title-text-color);}
 
 .caption-text{color: var(--primary-text-color);}
+
+
+.button{
+  color: var(--title-text-color);
+  background-color:#F5F4FA;
+}
+
+.button:hover,
+.button:focus
+{ color: #ffffff;
+  background-color: #2196F3;
+
+} 
