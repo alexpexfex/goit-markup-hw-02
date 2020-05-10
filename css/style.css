@@ -3,96 +3,188 @@
 /* цвет заголовка #FFFFFF */
 /* цвет логотипа #2196F3 */
 /* бекграунд 3 секии  #F5F4FA */
+/* бекграунд 1 і кусочки 3 секции
+ background: rgba(47, 48, 58, 0.8); */
+/*  */
+
+/* шрифт для логотипа Raleway жирность 700
+щрифт для текста  Roboto жирность 400,500,700,900  */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --logo-text-color: #2196f3;
-  --primary-bcg-color:#ffffff;
+  --primary-bcg-color: #ffffff;
+  --header-caption-color: #00ff00;
+  --bgc-section: rgba(47, 48, 58, 0.8);
+  --footer-primary-color:#2F303A;
 }
 
 body {
-  color: var(--primary-text-color)
   background-color: var(--primary-bcg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
 }
 span {
   color: #000000;
+
 }
+.header-main{
+  color: #ffffff
+}
+
 /* навигация */
 .nav-logo {
-  color:var(--logo-text-color);
+    font-family: Raleway, sans-serif;
+    color: var(--logo-text-color)
+
+  font-weight:700;
+  font-size: 26px;
+  line-height: 1.19;
+
 }
-.navigation-link {
+.nav-link {
   color: var(--title-text-color);
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 2%;
+
 }
-.navigation-link:hover,
-.navigation-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--logo-text-color);
 }
 .contact-link {
-  color: #757575;
+  color: var(--primary-text-color);
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 2%;
+
 }
 .contact-link:hover,
 .contact-link:focus {
   color: var(--logo-text-color);
 }
-/* Герой */
-.section-hero {
-  color: var(--title-text-color);
+/* Герой поменять цвет заголовка */
+.hero-title {
+  color: var(--header-caption-color);
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.5;
+
+text-align: center; 
+letter-spacing: 6%;
+
 }
-/* Поменять цвет текста и кнопки */
+/* кнопка */
 .button-main {
-  color: var(--logo-text-color);
+  background-color: var(--logo-text-color);
+  color: var(--primary-bcg-color);
+ 
+
 }
 .button-main:hover,
 .button-main:focus {
-  color: var(--logo-text-color);
-}
-/* сптсок приимуществ */
-.overweight-caption {
-  color:  var(--title-text-color)
-}
-.work-title {
   color: var(--title-text-color);
 }
-.work-text {
-  color: #ffffff;
-  background-color: rgba(47, 48, 58, 0.8);
+/* предложение */
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+}
+.section-caption {
+  color: var(--title-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+}
+/* .section-text{color: var(--primary-text-color)
+  ;} */
+
+.section-text {
+  background-color: var(--bgc-section);
+  color: var(--header-caption-color);
+  
+font-weight: 700
+font-size: 14px;
+line-height: 1.14;
+
+
 }
 /* наша команда */
-.team-workers {
+.section-workers{
   color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
 }
-.workers-man {
-  color:var(--title-text-color);
+.section-lead{
+  color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.19;
+
 }
-.workers-link {
-  color: var(--logo-text-color);
-}
-.workers-link:hover,
-.workers-link:focus {
-  color: #008080;
+
+
 }
 /* наши клиенти */
 .clients-title {
-  color:  var(--title-text-color);
-}
-
-
-
-/* текст на картинки поменять цвет на fffffff */
-.caption-content {color: var(--title-text-color);}
-
-.caption-text{color: var(--primary-text-color);}
-
-
-.button{
   color: var(--title-text-color);
-  background-color:#F5F4FA;
 }
 
-.button:hover,
-.button:focus
-{ color: #ffffff;
-  background-color: #2196F3;
+/* css второй страници */
 
-} 
+.navi-button {
+  color:
+  var(--logo-text-color),
+   var(--header-caption-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  
+}
+
+.navi-button:hover,
+.navi-button:focus {
+  color: va(--header-caption-color) ,
+   var(--logo-text-color);
+}
+
+
+
+/* наши роботи */
+.section-heading {
+
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2 ;
+  letter-spacing: 6%;
+}
+/* поменять текст с чорного на белий */
+.section-row{
+font-size: 18px;
+line-height: 1.56;
+
+}
+.section-p{
+  color: var(--primary-text-color);
+
+
+  font-size: 16px;
+  line-height: 1.88;
+}

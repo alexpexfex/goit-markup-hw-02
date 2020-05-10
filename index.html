@@ -4,19 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio v.1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header-main">
       <nav class="nav">
         <a href="./" class="nav-logo"> Web <span>Studio</span> </a>
         <!-- навигация -->
         <ul>
-          <li><a href="" class="navigation-link">Студия</a></li>
+          <li><a href="" class="nav-link">Студия</a></li>
           <li>
-            <a href="portfolio.html" class="navigation-link">Портфолио</a>
+            <a href="portfolio.html" class="nav-link">Портфолио</a>
           </li>
-          <li><a href="" class="navigation-link">Контакты</a></li>
+          <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contact">
@@ -36,19 +40,19 @@
       <!-- герой -->
       <section class="section hero">
         <h1 class="hero-title">
-          эффективные решения <br />
-          для вашего бизнеса
+          ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
+          ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
-        <a href="Заказатьуслугу" class="button-main">Заказать услугу</a>
+        <button type="button" class="button-main">Заказать услугу</button>
         <!--ето кнопка-->
       </section>
       <!-- предложения -->
-      <section class="overweight">
-        <h2 class="overweight-title">Наши приемущества</h2>
+      <section class="section">
+        <h2 class="section-title">Наши приемущества</h2>
         <ul>
           <li>
             <img src="/CSS/Image/antena.svg" alt="Антена" width="67" />
-            <h3 class="overweight-caption">Внимание к деталям</h3>
+            <h3 class="section-caption">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -56,7 +60,7 @@
           </li>
           <li>
             <img src="/CSS/Image/clock.svg" alt="Часи" width="67" />
-            <h3 class="overweight-caption">Пунктуальность</h3>
+            <h3 class="section-caption">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -65,7 +69,7 @@
 
           <li>
             <img src="/CSS/Image/laptop.svg" alt="Компютер" width="67" />
-            <h3 class="overweight-caption">Планирование</h3>
+            <h3 class="section-caption">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -73,7 +77,7 @@
           </li>
           <li>
             <img src="/CSS/Image/astronaut.svg" alt="Космонавт" width="67" />
-            <h3 class="overweight-caption">Современные технологии</h3>
+            <h3 class="section-caption">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -82,31 +86,31 @@
         </ul>
       </section>
       <!-- Работа -->
-      <section class="section-work">
-        <h2 class="work-title">Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img src="/CSS/Image/computer.jpg" alt="Ноутбук" width="380" />
-            <p class="work-text">Десктопные приложения</p>
+            <p class="section-text">Десктопные приложения</p>
           </li>
           <li>
             <img src="/CSS/Image/phone.jpg" alt="Телефон" width="380" />
-            <p class="work-text">Мобильные приложения</p>
+            <p class="section-text">Мобильные приложения</p>
           </li>
           <li>
             <img src="/CSS//Image/TV.jpg" alt="Телевизор" width="380" />
-            <p class="work-text">Дизайнерские решения</p>
+            <p class="section-text">Дизайнерские решения</p>
           </li>
         </ul>
       </section>
       <!-- наши сотрудники -->
-      <section class="section workers">
-        <h2 class="team-workers">Наша команда</h2>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img src="/CSS/Image/john.jpg" alt="Джон" width="278" />
-            <h3 class="workers-man">John Smith</h3>
-            <p>Product Designer</p>
+            <h3 class="section-workers">John Smith</h3>
+            <p class="section-lead">Product Designer</p>
           </li>
           <li>
             <a href="" aria-label="Instagram.com"></a>
@@ -123,8 +127,8 @@
 
           <li>
             <img src="/CSS/Image/marta.jpg" alt="Марта" width="278" />
-            <h3 class="workers-man">Marta Stewart</h3>
-            <p>Frontend Developer</p>
+            <h3 class="section-workers">Marta Stewart</h3>
+            <p class="section-lead">Frontend Developer</p>
           </li>
           <li>
             <a href="" aria-label="Instagram.com" class="workers-link"></a>
@@ -141,8 +145,8 @@
 
           <li>
             <img src="/CSS/Image/Robert.jpg" alt="Роберт" width="278" />
-            <h3 class="workers-man">Robert Jakis</h3>
-            <p>Marketing</p>
+            <h3 class="section-workers">Robert Jakis</h3>
+            <p class="section-lead">Marketing</p>
           </li>
           <li>
             <a href="" aria-label="Instagram.com" class="workers-link"></a>
@@ -158,9 +162,9 @@
           </li>
 
           <li>
-            <img src="/CSS/Image/matin.jpg" alt="Мартин" width="278" />
-            <h3 class="workers-man">Martin Doe</h3>
-            <p>UI Designer</p>
+            <img src="/css/image/martin.jpg" alt="Мартин" width="278" />
+            <h3 class="section-workers">Martin Doe</h3>
+            <p class="section-lead">UI Designer</p>
           </li>
           <li>
             <a href="" aria-label="Instagram.com" class="workers-link"></a>
@@ -177,8 +181,8 @@
         </ul>
       </section>
       <!-- клиенты -->
-      <section class="section-clients">
-        <h2 class="clients-title">Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
 
         <ul>
           <li><img src="/CSS/Image/logo1.svg" alt="Логотип компании" /></li>
