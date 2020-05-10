@@ -17,6 +17,7 @@
   --header-caption-color: #00ff00;
   --bgc-section: rgba(47, 48, 58, 0.8);
   --footer-primary-color:#2F303A;
+  --section-bgc-color:#F5F4FA;
 }
 
 body {
@@ -126,7 +127,11 @@ line-height: 1.14;
 
 }
 /* наша команда */
+.section-featchers{
+  background-color: var(--section-bgc-color);
+}
 .section-workers{
+  
   color: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
