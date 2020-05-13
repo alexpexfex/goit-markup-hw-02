@@ -199,6 +199,9 @@ line-height: 1.56;
   font-size: 16px;
   line-height: 1.88;
 }
+.footer{
+  background-color: var(--footer-bcg-color);
+}
 .footer-logo {
   color: var(--logo-text-color);
   font-weight: 700;
@@ -221,7 +224,7 @@ line-height: 1.19;
 
 .footer-address {
   color: var(--primary-bcg-color);
-  font-style: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.13;
 }
