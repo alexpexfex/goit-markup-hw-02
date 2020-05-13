@@ -220,3 +220,10 @@ line-height: 1.19;
   color: var(--footer-contact-color);
 
 }
+.footer-title{
+  color: var(--primary-bcg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
