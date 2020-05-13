@@ -188,13 +188,13 @@ line-height: 1.19;
   letter-spacing: 6%;
 }
 /* поменять текст с чорного на белий */
-.section-row{
+.section-row {
   color: var(--primary-bcg-color);
 font-size: 18px;
 line-height: 1.56;
 
 }
-.section-p{
+.section-p {
   color: var(--primary-text-color);
 
 
@@ -210,14 +210,14 @@ line-height: 1.19;
 }
 .footer-logo span{ color: var(--primary-bcg-color);
 }
-.footer-address{
+.footer-address {
   color: var(--primary-bcg-color);
-  font-style: normal;
+  font-style: 400;
   font-size: 14px;
   line-height: 1.13;
 }
 
-.footer-contact{
+.footer-contact {
   color: var(--footer-contact-color);
 
 }
