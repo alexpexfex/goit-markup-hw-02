@@ -28,15 +28,14 @@ body {
   line-height: 1.71;
   letter-spacing: 3%;
 }
-span{color: var(--title-text-color);}
-ul{list-style: 
+span {color: var(--title-text-color);}
+ul {list-style: 
   none;
 }
-a{text-decoration: none;}
-/* a{
-  list-style: none; */
-}
-.header-main{
+a {text-decoration: none;}
+
+
+.header-main {
   color: var(--primary-bcg-color)
 }
 
@@ -120,8 +119,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 }
-/* .section-text{color: var(--primary-text-color)
-  ;} */
+
 
 .section-text {
   background-color: var(--bgc-section);
@@ -137,14 +135,14 @@ text-transform: uppercase;
 .section-featchers{
   background-color: var(--section-bgc-color);
 }
-.section-workers{
+.section-workers {
   
   color: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 }
-.section-lead{
+.section-lead {
   color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.19;
@@ -152,7 +150,7 @@ line-height: 1.19;
 }
 
 
-}
+
 /* наши клиенти */
 .clients-title {
   color: var(--title-text-color);
@@ -173,7 +171,7 @@ line-height: 1.19;
 
 .navi-button:hover,
 .navi-button:focus {
-  color: va(--header-caption-color) ,
+  color: var(--header-caption-color),
    var(--logo-text-color);
 }
 
@@ -187,7 +185,7 @@ line-height: 1.19;
   line-height: 2 ;
   letter-spacing: 6%;
 }
-/* поменять текст с чорного на белий */
+
 .section-row {
   color: var(--primary-bcg-color);
 font-size: 18px;
@@ -208,8 +206,19 @@ font-size: 22px;
 line-height: 1.19;
 
 }
-.footer-logo span{ color: var(--primary-bcg-color);
+.footer-logo span { color: var(--primary-bcg-color);
 }
+
+
+.footer-title{
+  color: var(--primary-bcg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+
 .footer-address {
   color: var(--primary-bcg-color);
   font-style: 400;
@@ -219,12 +228,4 @@ line-height: 1.19;
 
 .footer-contact {
   color: var(--footer-contact-color);
-
-}
-.footer-title{
-  color: var(--primary-bcg-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
