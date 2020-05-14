@@ -48,6 +48,7 @@ a {text-decoration: none;}
   font-weight:700;
   font-size: 26px;
   line-height: 1.19;
+  
 
 }
 .nav-link {
@@ -62,6 +63,9 @@ letter-spacing: 2%;
 }
 .nav-link:hover,
 .nav-link:focus {
+  color: var(--logo-text-color);
+}
+.nav-link:active {
   color: var(--logo-text-color);
 }
 .contact-link {
@@ -85,25 +89,26 @@ letter-spacing: 2%;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.5;
-
 text-align: center; 
 letter-spacing: 6%;
 
 }
 /* кнопка */
 .button-main {
+  font-family: Roboto, sans-serif;
   background-color: var(--logo-text-color);
   color: var(--primary-bcg-color);
-
- font-weight: 700;
- font-size: 16px;
- line-height: 1.88;
-
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
 }
 .button-main:hover,
 .button-main:focus {
   color: var(--title-text-color);
 }
+
+
 /* предложение */
 
 .section-title {
@@ -161,9 +166,8 @@ line-height: 1.19;
 
 .navi-button {
   color:
-  var(--title-text-color),
-  
-
+  var(--title-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -205,10 +209,11 @@ line-height: 1.56;
   background-color: var(--footer-bcg-color);
 }
 .footer-logo {
+  font-family: Raleway, sans-serif;
   color: var(--logo-text-color);
   font-weight: 700;
-font-size: 22px;
-line-height: 1.19;
+  font-size: 22px;
+  line-height: 1.19;
 
 }
 .footer-logo span { color: var(--primary-bcg-color);
@@ -241,4 +246,6 @@ line-height: 2;
 text-align: center;
 color: var(--footer-developed-color);
 }
+
+
 
